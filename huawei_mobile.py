@@ -113,7 +113,7 @@ class HWSHOP:
                         ec.wait.init();
                         joinQueue1()
                     }
-                },100)
+                },10)
                 '''
                 flow.response.status_code = 200
                 flow.response.headers["Content-Type"] = "text/plain; charset=utf-8"
